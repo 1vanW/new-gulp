@@ -1,0 +1,16 @@
+// базовые подключения
+@import "vendor";
+@import "var";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+
+a{
+  background-color: #fff;
+  font-size: 10px
+}
+
+
